@@ -1,0 +1,56 @@
+[
+    {
+        "image":"img/restaurants/95b745f6ce6a45903c3ed254afd72e46-w550-27.jpg", 
+        "name": "Макдоналдс — Газетный", 
+        "kitchens":["Бургеры"], 
+        "time_of_delivery": "25 - 35 мин"
+    },
+    {
+        "image":"img/restaurants/dim_sum.jpg", 
+        "name": "DimSum & Co — ЦДМ", 
+        "kitchens":["Японская","Китайская","Азиатская"], 
+        "time_of_delivery": "40 - 50 мин"
+    },
+    {
+        "image":"img/restaurants/dfadg.jpg", 
+        "name": "ДвижОК — Манежная", 
+        "kitchens":[ "Американская", "Европейская"], 
+        "time_of_delivery": "35 - 45 мин"
+    },
+    {
+        "image":"img/restaurants/edicv.jpg", 
+        "name": "НЯ — NHA", 
+        "kitchens":["Вьетнамская"], 
+        "time_of_delivery": "30 - 40 мин"
+    },
+    {
+        "image":"img/restaurants/kdfjsdnf.jpg", 
+        "name": "Точка Дзы — Цветной", 
+        "kitchens":["Вьетнамская"], 
+        "time_of_delivery": "40 - 50 мин"
+    },
+    {
+        "image":"img/restaurants/dsnjsdf.jpg", 
+        "name": "Cinnabon", 
+        "kitchens":["Выпечка","Десерты","Капкейки"], 
+        "time_of_delivery": "25 - 35 мин"
+    },
+    {
+        "image":"img/restaurants/dncjsf.jpg", 
+        "name": "PIZZELOVE", 
+        "kitchens":[" Пицца"], 
+        "time_of_delivery": "15 - 25 мин"
+    },
+    {
+        "image":"img/restaurants/jsdn.jpg", 
+        "name": "Zю кафе — Тверская", 
+        "kitchens":["Японская"], 
+        "time_of_delivery": "25 - 35 мин"
+    },
+    {
+        "image":"img/restaurants/sdufv.jpg", 
+        "name": "Bar BQ Cafe — Манежная", 
+        "kitchens":["Европейская"], 
+        "time_of_delivery": "30 - 40 мин"
+    }
+]

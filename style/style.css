@@ -1,0 +1,292 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Reboto, sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* HEADER */
+
+.header{
+    width: 100%;
+    position:fixed;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 5px 3px rgba(200, 200, 200, 0.2); */
+}
+
+.header-container {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-logo-img {
+    height: 12px;
+    width: 108px;
+}
+
+.header-button-basket {
+    height: 40px;
+    width: 40px;
+    background-image: url("../img/basket.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+.header-button-basket_text {
+    visibility: hidden;
+}
+
+.header-button-signin {
+    height: 40px;
+    width: 78px;
+    background-color: #fff;
+    color: #1d1d1d;
+    line-height: 24px;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    outline: none;
+}
+
+.header-button-signin:hover,
+.header-button-basket:hover {
+    border: 1px solid #57AD56;
+    border-radius: 2px;
+}
+
+.header-button-signin:active,
+.header-button-basket:active {
+    background-color:  #fafafa;
+    border-color:  #4d864c;
+}
+
+/* MAIN */
+.main_container {
+    margin-top: 127px;
+}
+
+.search {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.search-separator {    
+    height: 1px;
+    background-color: #757575;
+}
+
+.search-input {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Reboto, sans-serif;
+    color: #626262;
+    line-height: 24px;
+    width: 100%;
+    border: none;
+    outline:none;
+}
+
+.cards-header {
+    font-size: 22px;
+    color: #1d1d1d;
+    font-weight: 400;
+    line-height: 34px;
+    margin-bottom: 16px;
+}
+
+.card-img {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.card-header {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1d1d1d;
+    margin-bottom: 5px;
+}
+
+.card-info {
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    margin-bottom: 5px;
+}
+
+.card-time {
+    line-height: 21px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #1d1d1d;
+    margin-bottom: 36px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #262626;
+    color: #aaa;
+}
+.footer-logo {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+.footer-logo-img {
+    height: 20px;
+    width: 192px;
+}
+
+.footer-section_separator {
+    height: 1px;
+    background-color: #979797;
+}
+
+.footer-nav, 
+.footer-app_links,
+.footer-info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-language-select {
+    height: 40px;
+    width: 60%;
+    background-color: #3B3B3B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Reboto, sans-serif;
+    margin-bottom: 34px;
+    outline:none;
+}
+
+.footer-language-select:hover {
+    cursor: pointer;
+}
+
+
+.footer-list,
+.footer-network {
+    list-style-type: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer-link:hover {
+    color: #ccc;
+}
+
+.footer-nav-item,
+.footer-info-item {
+    margin-bottom: 24px;
+}
+
+.footer-hash {
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-hash .hash-sign {
+    color: #49A144;
+}
+
+.footer-logo-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.footer-network-item {
+    display: inline-block;
+}
+
+.footer-logo-icon:hover {
+    background-color: #363636;
+    border-bottom: 1px solid #1d1d1d;
+}
+
+.footer-app_links {
+    text-align: center;
+}
+
+.footer-app-ios-button {
+    height: 40px;
+    width: 121px;
+    background-image: url("../img/app_icons/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg");
+}
+
+.footer-app-android-button {
+    height: 40px;
+    width: 135px;
+    background-image: url("../img/app_icons/en_badge_web_generic-cf6dad406f.svg");
+}
+
+.footer-app-ios-button,
+.footer-app-android-button {
+    border: none;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.footer-app-ios-button:hover,
+.footer-app-android-button:hover {
+    box-shadow: 0 3px 3px 5px rgba(20, 20, 20, 0.2);
+    cursor: pointer;
+}
+
+/* BUTTON UP */
+
+.button_up {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    bottom: 24px;
+    right: 16px;
+    background-color: #59BD5A;
+    background-image: url("../img/arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.button_up:hover {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.button_up:active {
+    box-shadow: none;
+    border: none;
+}
