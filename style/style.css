@@ -80,12 +80,12 @@ body {
 
 /* MAIN */
 .main_container {
-    margin-top: 127px;
+    margin-top: 72px;
 }
 
 .search {
-    margin-top: 55px;
-    margin-bottom: 55px;
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .search-separator {    
@@ -289,4 +289,123 @@ body {
 .button_up:active {
     box-shadow: none;
     border: none;
+}
+
+/* Restaurant Page */
+
+.menu-header {
+    padding: 80px 0;
+    background-image: url("../img/goods/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.restaurant-menu {
+    padding: 38px;
+    background-color: #fff;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+.restaurant-name {
+    margin-bottom: 54px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+.restaurant-kitchen {
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.restaurant-delivery-time {
+    padding: 8px 16px;
+    background-color: #262626;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.restaurant-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-nav {
+    border: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.menu-nav-list {
+    list-style-type: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu-nav-item {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.menu-nav-item-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.menu-nav-item-link:hover {
+    color: #327430;
+}
+
+.goods-category {
+    margin-top: 56px;
+    margin-bottom: 32px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+.good-img {
+    height: 160px;
+}
+
+.good-name {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+.good-description {
+    line-height: 21px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #626262;
+}
+
+.good-cost {
+    line-height: 21px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d1d1d;
+}
+
+.good-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.good-card {
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
 }

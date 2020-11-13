@@ -1,0 +1,71 @@
+[
+    {
+        "category_id": "snacks",
+        "name": "Закуски",
+        "goods" : [
+            {
+                "name": "Сельдь на бородинском хлебе",
+                "description" : "С яйцом и огурцом",
+                "cost" : 240,
+                "img" : "img/goods/1.jpg"
+            },
+            {
+                "name": "Соленья ассорти",
+                "description" : "",
+                "cost" : 320,
+                "img" : "img/goods/2.jpg"
+            },
+            {
+                "name": "Грибы маринованные",
+                "description" : "",
+                "cost" : 300,
+                "img" : "img/goods/3.jpg"
+            }
+        ]
+    },
+    {
+        "category_id": "salads",
+        "name": "Салаты",
+        "goods" : []
+    },
+    {
+        "category_id": "soups",
+        "name": "Супы",
+        "goods" : [
+            {
+                "name": "Сало домашнее с горчицей",
+                "description" : "",
+                "cost" : 320,
+                "img" : "img/goods/4.jpg"
+            },
+            {
+                "name": "Малосольная семга",
+                "description" : "",
+                "cost" : 390,
+                "img" : "img/goods/5.jpg"
+            },
+            {
+                "name": "Язык говяжий с хреном",
+                "description" : "",
+                "cost" : 350,
+                "img" : "img/goods/6.jpg"
+            }
+        ]
+    },
+    {
+        "category_id": "hot_dish",
+        "name": "Горячие блюда",
+        "goods" : []
+    },
+    {
+        "category_id": "garnishes",
+        "name": "Гарниры",
+        "goods" : []
+    },
+    {
+        "category_id": "desserts",
+        "name": "Десерты",
+        "goods" : []
+    }
+
+]
